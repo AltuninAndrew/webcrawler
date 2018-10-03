@@ -1,0 +1,15 @@
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\bin\Debug\AntoniolaCrawler.exe.config
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\bin\Debug\AntoniolaCrawler.exe
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\bin\Debug\AntoniolaCrawler.pdb
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.csprojAssemblyReference.cache
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\MainWindow.g.cs
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\App.g.cs
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler_MarkupCompile.cache
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler_MarkupCompile.lref
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\MainWindow.baml
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.g.resources
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.Properties.Resources.resources
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.csproj.GenerateResource.cache
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.csproj.CoreCompileInputs.cache
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.exe
+C:\Users\timwi\Source\Repos\AntoniolaCrawler\AntoniolaCrawler\obj\Debug\AntoniolaCrawler.pdb
