@@ -9,8 +9,9 @@ namespace WebCrawler
     {
         private WebClient _webClient = new WebClient();
         private string patternDefault = '"'+@"\/[\w\-_]+([\w\-\.,@?^=% &amp;:/~\+#]*[\w\-\@?^=%&amp;/~\+#])?" + '"';
-
-
+        
+        // how find all links in tag "href=", herewith this tag DON'T MUST have in result string ?
+        
         public List<String> GetAllLinkInPage(string url)
         {
             string tempStr;
