@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <Grid>
+        <Grid MaxWidth="200">
         <Grid.RowDefinitions>
             <RowDefinition Height="25" />
             <RowDefinition Height="40" />
@@ -23,13 +23,17 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="Введите адрес сайта: " />
-        <TextBox Grid.Row="1" Margin="0, 0, 0, 15" />
+        <TextBox Grid.Row="1" Margin="0, 0, 0, 15" Text="{Binding Path=SiteUri, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" />
         <TextBlock Grid.Row="2" Text="Введите глубину поиска: " />
-        <TextBox Grid.Row="3" Margin="0, 0, 0, 15" />
-        <Button Grid.Row="4" Content="Парсить" />
+        <TextBox Grid.Row="3" Margin="0, 0, 0, 15" Text="{Binding Path=SearchDepth, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"
+                 Validation.ErrorTemplate="{x:Null}"/>
+        <Button Grid.Row="4" Content="Парсить" Command="{Binding Path=CrawlSiteCommand}" />
         </Grid>
-        <Grid>
-           
+        <Grid Grid.Row="1">
+            <!-- Reserved for a multiple links input-->
+            <ListView MinHeight="100" MaxHeight="200" Width="300" Margin="0, 20, 0, 0">
+                
+            </ListView>
         </Grid>
     </Grid>
 </Window>
