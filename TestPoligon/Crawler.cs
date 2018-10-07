@@ -43,7 +43,7 @@ namespace WebCrawler
         /// Get all links on page with default url
         /// </summary>
         /// <returns>list with all links on page</returns>
-        public List<String> GetAllLinkOnPage()
+        public List<String> GetAllLinksOnPage()
         {
             string tempPage;
             List<String> links = new List<string>();
@@ -99,7 +99,7 @@ namespace WebCrawler
 
         public void Craw()
         {
-            SortLinks(GetAllLinkOnPage());
+            SortLinks(GetAllLinksOnPage());
 
             // for debug
             Console.WriteLine("Site links: ");
