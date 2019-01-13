@@ -37,8 +37,6 @@ namespace WebCrawler
                     srw.WriteLine(element.linkStr);
                 }
                 Console.WriteLine("Finished");
-
-              
             }
         }
 
